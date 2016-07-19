@@ -4,7 +4,7 @@
 * Should be able to add and remove contacts.
 * Should be able to see these changes update on the page.
 
-[**Surge**](tiy-humdrum-mvcfirsthw.surge.sh
+[**Surge**](http://tiy-humdrum-mvcfirsthw.surge.sh/
 )
 
 **lodash Tools**
