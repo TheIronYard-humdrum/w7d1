@@ -88,6 +88,10 @@ input {
   border: solid 1px lighten(black, 70%);
   border-radius: 2px;
   color: lighten(black, 45%);
+  :focus {
+  outline-color: transparent;
+  outline-style: none;
+}
 }
 
 .contacts-container {
@@ -120,7 +124,7 @@ input {
   margin: 0 8px;
 }
 
-.contact-info {
+.contact-in {
   margin: 0 4px;
 }
 
