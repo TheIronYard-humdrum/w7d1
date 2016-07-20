@@ -76,6 +76,10 @@ input {
   margin: 5px 0;
   border: solid 1px #CCC;
   border-radius: 2px;
+  &:focus {
+    outline-color: transparent;
+    outline-style: none;
+  }
 }
 
 .add {
@@ -88,10 +92,10 @@ input {
   border: solid 1px lighten(black, 70%);
   border-radius: 2px;
   color: lighten(black, 45%);
-  :focus {
-  outline-color: transparent;
-  outline-style: none;
-}
+  &:focus {
+    outline-color: transparent;
+    outline-style: none;
+  }
 }
 
 .contacts-container {
