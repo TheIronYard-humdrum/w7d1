@@ -46,10 +46,14 @@ class AppController {
   }
 
   contactTemplate(contact) {
+    let random = _.random(1,100);
+    let gender = ['men', 'women'];
+    gender = _.sample(gender)
+    let img = `https://randomuser.me/api/portraits/${gender}/${random}.jpg`
     return `
       <li class="contact" data-id="${contact.id}">
         <div class='contact-pic'>
-          <img src="#">
+          <img src="${img}">
         </div>
         <div class='contact-info'>
           <p class='name'>${contact.name}</p>

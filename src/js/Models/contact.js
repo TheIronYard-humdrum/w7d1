@@ -1,4 +1,5 @@
 import $ from 'jquery'
+import _ from 'lodash'
 
 class Contact {
 
@@ -7,9 +8,8 @@ class Contact {
     this.phone = phone;
     this.address = address;
     this.id = id;
+    this.img = '';
   }
-
-
 }
 
 export { Contact }
