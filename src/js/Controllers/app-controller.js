@@ -57,8 +57,8 @@ class AppController {
         </div>
         <div class='contact-info'>
           <p class='name'>${contact.name}</p>
-          <p class='phone'>${contact.phone}</p>
-          <address>${contact.address}</address>
+          <p class='contact-phone'>${contact.phone}</p>
+          <p class='address'>${contact.address}</p>
         </div>
         <div class='remove-button'>
           <i class="fa fa-bars" aria-hidden="true"></i>
